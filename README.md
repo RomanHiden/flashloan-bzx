@@ -79,12 +79,21 @@ There are a couple of use cases where someone might use flash loans:
 + re-finance exiting loans
 + other
 
+## Support
+For any dev related questions and support please join our discord #dev[https://discord.gg/6uW2R39u] channel.
+
 ## Testing
 
 To run the tests, first install the developer dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Make sure you have environemtn variables setup for ETHERSCAN and INFIRA
+```
+export ETHERSCAN_TOKEN= ...
+export WEB3_INFURA_PROJECT_ID= ...
 ```
 
 Run the all tests with:
